@@ -5,14 +5,14 @@
     "url": "https://jurisprudenciator.lexiaipro.org"
   },
   "metadata": {
-    "description": "Formularios jurídicos de España para Claude · Penal: 1 plugin por materia (1 formularios), una skill por formulario, cada una conectada a Jurisprudenciator para verificar las normas.",
+    "description": "Formularios jurídicos de España para Claude · Penal: 1 plugin por materia (1 formulario), una skill por formulario, cada una conectada a Jurisprudenciator: sin él las skills no redactan ni verifican nada.",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "formularios-cancelar-antecedentes-policiales",
       "source": "./plugins/formularios-cancelar-antecedentes-policiales",
-      "description": "Penal: cancelar antecedentes policiales · España (1 formularios). Un formulario penal: solicitud a la Sección de Instrucción del Tribunal de Instancia para que acuerde o certifique el archivo de unas diligencias, con el fin de pedir después la cancelación de los antecedentes policiales. Requiere Jurisprudenciator.",
+      "description": "Penal: cancelar antecedentes policiales · España (1 formulario). Un formulario penal: solicitud a la Sección de Instrucción del Tribunal de Instancia para que acuerde o certifique el archivo de unas diligencias, con el fin de pedir después la cancelación de los antecedentes policiales. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [

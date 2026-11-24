@@ -1,6 +1,6 @@
 ---
 name: solicitud-juzgado-instruccion-archivo-diligencias-pen-0001
-description: "Solicitud al juzgado de instrucción de archivo de diligencias para cancelar antecedentes policiales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud al juzgado de instrucción de archivo de diligencias para cancelar antecedentes policiales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud al juzgado de instrucción de archivo de diligencias para cancelar antecedentes policiales

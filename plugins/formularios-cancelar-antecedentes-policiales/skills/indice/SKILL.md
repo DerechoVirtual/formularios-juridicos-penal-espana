@@ -1,11 +1,11 @@
 ---
 name: indice
-description: "Índice de los 1 formularios de Penal: cancelar antecedentes policiales. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice del formulario de Penal: cancelar antecedentes policiales. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Penal: cancelar antecedentes policiales: índice de formularios
 
-> Plugin `formularios-cancelar-antecedentes-policiales` · 1 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-cancelar-antecedentes-policiales` · 1 formulario · normativa revisada el 24-11-2026.
 
 ## Qué es
 
