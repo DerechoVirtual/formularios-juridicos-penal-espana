@@ -1,0 +1,28 @@
+{
+  "name": "formularios-juridicos-penal-espana",
+  "owner": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "metadata": {
+    "description": "Formularios jurídicos de España para Claude · Penal: 1 plugin por materia (1 formularios), una skill por formulario, cada una conectada a Jurisprudenciator para verificar las normas.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "formularios-cancelar-antecedentes-policiales",
+      "source": "./plugins/formularios-cancelar-antecedentes-policiales",
+      "description": "Penal: cancelar antecedentes policiales · España (1 formularios). Un formulario penal: solicitud a la Sección de Instrucción del Tribunal de Instancia para que acuerde o certifique el archivo de unas diligencias, con el fin de pedir después la cancelación de los antecedentes policiales. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "penal"
+      ]
+    }
+  ]
+}
