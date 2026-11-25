@@ -1,15 +1,15 @@
 ---
 name: indice
-description: "Índice del formulario de Penal: cancelar antecedentes policiales. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
+description: "Índice de los 2 formularios de Penal: antecedentes policiales y escritos ante la Sección de Instrucción. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
-# Penal: cancelar antecedentes policiales: índice de formularios
+# Penal: antecedentes policiales y escritos ante la Sección de Instrucción: índice de formularios
 
-> Plugin `formularios-cancelar-antecedentes-policiales` · 1 formulario · normativa revisada el 24-11-2026.
+> Plugin `formularios-cancelar-antecedentes-policiales` · 2 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
-Un formulario penal: solicitud a la Sección de Instrucción del Tribunal de Instancia para que acuerde o certifique el archivo de unas diligencias, con el fin de pedir después la cancelación de los antecedentes policiales.
+Dos formularios penales: solicitud a la Sección de Instrucción del Tribunal de Instancia para que acuerde o certifique el archivo de unas diligencias (para pedir después la cancelación de los antecedentes policiales) y escrito del perjudicado que renuncia a las acciones contra la aseguradora.
 
 ## Cómo se usa
 
@@ -18,6 +18,7 @@ Cuéntale a Claude qué documento necesitas y para qué caso. Esta skill busca e
 Ejemplos de petición:
 
 - «Solicitud de archivo de diligencias para cancelar antecedentes policiales»
+- «Escrito del perjudicado que renuncia a las acciones contra la aseguradora»
 
 ## Instrucciones para Claude
 
@@ -48,10 +49,16 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
 ### Comunicaciones, requerimientos y cartas (1)
 
 | Código | Formulario | Skill |
 |---|---|---|
 | PEN-0001 | Solicitud al juzgado de instrucción de archivo de diligencias para cancelar antecedentes policiales | `solicitud-juzgado-instruccion-archivo-diligencias-pen-0001` |
+
+### Escritos de trámite y otros (1)
+
+| Código | Formulario | Skill |
+|---|---|---|
+| PEN-0002 | Escrito ante la Sección de Instrucción del perjudicado que renuncia a acciones contra la aseguradora | `escrito-ante-seccion-instruccion-perjudicado-renuncia-pen-0002` |

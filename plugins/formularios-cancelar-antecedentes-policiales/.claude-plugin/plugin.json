@@ -1,12 +1,12 @@
 {
   "name": "formularios-cancelar-antecedentes-policiales",
-  "version": "1.0.0",
-  "description": "Penal: cancelar antecedentes policiales: 1 formulario revisado el 24-11-2026, convertido en una skill que lo rellena paso a paso. Un formulario penal: solicitud a la Sección de Instrucción del Tribunal de Instancia para que acuerde o certifique el archivo de unas diligencias, con el fin de pedir después la cancelación de los antecedentes policiales. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Penal: antecedentes policiales y escritos ante la Sección de Instrucción: 2 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Dos formularios penales: solicitud a la Sección de Instrucción del Tribunal de Instancia para que acuerde o certifique el archivo de unas diligencias (para pedir después la cancelación de los antecedentes policiales) y escrito del perjudicado que renuncia a las acciones contra la aseguradora. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"
   },
-  "displayName": "Penal: cancelar antecedentes policiales · España",
+  "displayName": "Penal: antecedentes policiales y escritos ante la Sección de Instrucción · España",
   "icon": "./.claude-plugin/icon.png",
   "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
   "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
